@@ -39,7 +39,7 @@ public class ApiControllerDocTesterTest extends NinjaDocTester {
                         testServerUrl().path(URL_INDEX)));
 
         assertThat(response.payload, containsString("Hello Ninja!"));
-        assertThat(response.payload, containsString("P'Por KaK!"));
+        assertThat(response.payload, containsString("P'Por"));
 
 
     }
