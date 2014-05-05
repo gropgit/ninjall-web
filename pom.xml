@@ -23,6 +23,7 @@
 
 
     <build>
+    <finalName>ninjall-Chinobi</finalName>
         <plugins>
 
             <plugin>
